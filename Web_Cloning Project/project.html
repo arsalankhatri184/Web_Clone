@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone Project</title>
+    <link rel="icon" href="./images/amazon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Main Section Start -->
+    <div class="main">
+        <!-- nav bar -->
+        <div class="nav-bar">
+            <!-- Logo -->
+            <div class="logo-section border">
+                <img src="./images/logo.png" alt="image not found" class="logo">
+            </div>
+            <!-- location Section-->
+            <div class="location-section border">
+                <div class="location-content">
+                    <p class="deliver">Deliver to</p>
+                    <div class="address">
+                        <i class="fa-solid fa-location-dot loc-icon"></i>
+                        <p class="loc">Karachi</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Search Bar Section -->
+            <div class="search-bar-section">
+                <select class="list">
+                    <option>All</option>
+                </select>
+                <input type="text" class="input-box" placeholder="Search Amazon">
+                <i class="fa-solid fa-magnifying-glass search-btn"></i>
+            </div>
+            <!-- Language Section -->
+            <div class="language border">
+                <img src="./images/flag.png" alt="image not found" class="flag">
+                <p class="en">EN</p>
+                <i class="fa-solid fa-angle-down select-icon"></i>
+            </div>
+            <!-- Account Section -->
+            <div class="account-section border">
+                <p class="name">Hello, Arsalan</p>
+                <div class="account">
+                    <p class="account-list">Account & Lists</p>
+                    <i class="fa-solid fa-angle-down list-icon"></i>
+                </div>
+            </div>
+            <!-- Order Section -->
+            <div class="order-section border">
+                <p class="name">Returns</p>
+                <p class="account-list">& Orders</p>
+            </div>
+            <!-- Cart Section -->
+            <div class="cart-section border">
+                <i class="fa-solid fa-cart-shopping cart"></i>
+            </div>
+        </div>
+        <!-- Nav-Bar End -->
+
+        <!-- Next Menu Section -->
+        <div class="second-nav">
+            <!-- Menu Section -->
+            <div class="menu-section border">
+                <i class="fa-solid fa-bars menu-icon"></i>
+                <p class="menu-all">All</p>
+            </div>
+            <!-- Menu Section End-->
+
+            <!-- Links Section -->
+            <div class="link-section">
+                <ul class="links-list">
+                    <li class="border">Today's Deals</li>
+                    <li class="border">Customer Service</li>
+                    <li class="border">Buy Again</li>
+                    <li class="border">Arsalan's Amazon.com</li>
+                    <li class="border">Gift Cards</li>
+                    <li class="border">Browsing History</li>
+                    <li class="border">Registry</li>
+                    <li class="border">Sell</li>
+                </ul>
+            </div>
+            <!-- Links Section End-->
+        </div>
+        <!-- Next Menu Section -->
+
+        <!-- Slider Section -->
+        <div class="slider">
+            <div class="slide">
+                <img src="./images/1.jpg" alt="image not found">
+            </div>
+
+            <div class="slide">
+                <img src="./images/2.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./images/3.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./images/4.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./images/5.jpg" alt="">
+            </div>
+
+            <span class="arrow prev" onclick="controlar(-1)">&#10094</span>
+            <span class="arrow next" onclick="controlar(1)">&#10095</span>
+        </div>
+        <!-- End Slider Section -->
+
+        <!-- Body Background -->
+        <div class="shadow-bg"></div>
+        <div class="solid-bg"></div>
+        <!-- Body Background End-->
+
+        <!-- Shoping Section -->
+        <div class="shoping-section">
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Electronics</h1>
+                    <img src="./images/electronics.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Beauty picks</h1>
+                    <img src="./images/Beauty picks.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Create with strip lights</h1>
+                    <img src="./images/Create with strip lights.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Home Improvement Deals</h1>
+                    <img src="./images/Deals in Tools and Home Improvement.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                    <img src="./images/Health & Personal Care.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Discover fashion trends</h1>
+                    <img src="./images/Discover fashion trends.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Health & Personal Care</h1>
+                    <img src="./images/Health & Personal Care.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Home & Kitchen Under</h1>
+                    <img src="./images/Home & Kitchen Under $30.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h1>Home refresh ideas</h1>
+                    <img src="./images/Home refresh ideas.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Kindle E readers</h1>
+                    <img src="./images/Kindle E readers.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Shop Laptops & Tablets</h1>
+                    <img src="./images/Shop Laptops & Tablets.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h1>Shop school essentials</h1>
+                    <img src="./images/Shop school essentials.jpg" alt="">
+                    <p>See More</p>
+                </div>
+            </div>
+            <!-- End Shoping Section -->
+
+            <!-- Back To Top Section -->
+            <a href="#top">
+                <div class="back">
+                    <p>Back To Top</p>
+                </div>
+            </a>
+            <!-- Back To Top Section End-->
+
+            <!-- Bottom list Menu Section -->
+            <div class="bottom-box">
+                <div class="content">
+                    <div class="b1">
+                        <h1>Get to Know Us</h1>
+                        <ul>
+                            <li>Careers</li>
+                            <li>Blog</li>
+                            <li>About Amazon</li>
+                            <li>Investor Relations</li>
+                            <li>Amazon Devices</li>
+                            <li>Amazon Science</li>
+                        </ul>
+                    </div>
+
+                    <div class="b1">
+                        <h1>Make Money with Us</h1>
+                        <ul>
+                            <li>Sell products on Amazon</li>
+                            <li>Sell on Amazon Business</li>
+                            <li>Sell apps on Amazon</li>
+                            <li>Become an Affiliate</li>
+                            <li>Advertise Your Products</li>
+                            <li>Self-Publish with Us</li>
+                            <li>Host an Amazon Hub</li>
+                            <li>›See More Make Money with Us</li>
+                        </ul>
+                    </div>
+
+                    <div class="b1">
+                        <h1>Amazon Payment Products</h1>
+                        <ul>
+                            <li>Ama
+                                zon Business Card</li>
+                            <li>Shop with Points</li>
+                            <li>Reload Your Balance</li>
+                            <li>Amazon Currency Converter</li>
+                        </ul>
+                    </div>
+
+                    <div class="b1">
+                        <h1>Let Us Help You</h1>
+                        <ul>
+                            <li>Amazon and COVID-19</li>
+                            <li>Your Orders</li>
+                            <li>Your Account</li>
+                            <li>Shipping Rates & Policies</li>
+                            <li>Returns & Replacements</li>
+                            <li>Manage Your Content and Devices</li>
+                            <li>Amazon Assistant</li>
+                            <li>Helpe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- botton list Menu Section end-->
+
+            <!-- last section-->
+            <div class="second-box">
+                <div class="content-box">
+                    <img src="./images/logo.png" alt="" style="width: 76px; height: 25px;">
+                    <div class="bottom-lan">
+                        <div style="display: flex;" class="lan border">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>English</p>
+                            <i class="fa-solid fa-arrows-up-down"
+                                style="margin-left: 5px; margin-right: 5px; color: #DDDDDD; font-size: 10px;"></i>
+                        </div>
+                        <div style="display: flex;" class="lan border">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <p>USD - U.S. Dollar</p>
+                        </div>
+                        <div style="display: flex;" class="lan f border">
+                            <img src="./images/flag.png" alt="">
+                            <!-- <i class="fa-solid fa-flag"></i> -->
+                            <p>United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Last Section End-->
+
+            <!-- Last Blank Section -->
+            <div class="last"></div>
+            <!-- Last Blank Section -->
+
+            <!-- CopyRight Section -->
+            <div class="copyright">
+
+                <p>CopyRights@2023 Powered By</p><a href="https://www.youtube.com/@akdeepknowledge/videos"
+                    target="_blank"><span>Arsalan Khatri</span></a>
+                </a>
+            </div>
+            <!-- CopyRight Section -->
+
+        </div>
+        <!-- Main Section End -->
+        <script src="javascript.js"></script>
+</body>
+</html>
